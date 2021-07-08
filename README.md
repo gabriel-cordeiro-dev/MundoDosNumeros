@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/MundoDosNumeros-v2.0.1-brightgreen"/> ![GitHub stars](https://img.shields.io/github/stars/gabriel-cordeiro-dev/QuizApp) <img src="https://img.shields.io/badge/Contribuitors-2-red"/>
+<img src="https://img.shields.io/badge/MundoDosNumeros-v2.0.1-brightgreen"/> ![GitHub stars](https://img.shields.io/github/stars/gabriel-cordeiro-dev/MundoDosNumeros) <img src="https://img.shields.io/badge/Contribuitors-2-red"/>
 
 # Projeto Integrador ADS 2021/1
  ## Descrição do Projeto
@@ -50,10 +50,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/gabriel-cordeiro-dev/CursoAdsPI.git>
+$ git clone <https://github.com/gabriel-cordeiro-dev/MundoDosNumeros.git>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd CursoAdsPI
+$ cd MundoDosNumeros
 
 # Vá para a pasta server
 $ cd quiz_srv
@@ -71,10 +71,10 @@ $ npm start ou yarn start
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/gabriel-cordeiro-dev/QuizApp.git>
+$ git clone <https://github.com/gabriel-cordeiro-dev/MundoDosNumeros.git>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd QuizApp
+$ cd MundoDosNumeros
 
 # Vá para a pasta front-end
 $ cd quiz_cli
