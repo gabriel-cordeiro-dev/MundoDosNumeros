@@ -48,8 +48,12 @@ class LoginForm extends React.Component {
         return res.json();
       })
       .then((data) => {
-        login(data.token);
-        window.location.href = "/pergunta";
+        if(data.token){
+          login(data.token);
+          window.location.href = "/pergunta";
+        }else{
+          window.localtion.href = "/login";
+        }
       })
       .catch((err) => console.log(err));
   }
