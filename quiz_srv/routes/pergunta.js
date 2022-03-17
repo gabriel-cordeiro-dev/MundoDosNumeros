@@ -1,27 +1,6 @@
 const router = require("express").Router();
 const Pergunta = require("../models/Pergunta");
 
-//router.get('/:id', (req, res) =>{
-//    Pergunta.findOne({
-//        where: {id: req.params.id}
-//    })
-//
-//    .then(pergunta =>{
-//        if (pergunta) {
-//            console.log('pergunta', pergunta)
-//            res.json(pergunta)
-//        } else {
-//            console.log('Questões não encontradaa')
-//            return res.status(400).json({
-//                err: 'Questões não econtradas'
-//            })
-//        }
-//    }).catch(err =>{
-//        console.log('Erro', err)
-//        return res.json({ err: err})
-//   })
-//})
-
 router.get("/", (req, res) => {
   Pergunta.findAll()
 
