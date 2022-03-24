@@ -105,6 +105,7 @@ class Questions extends React.Component {
         }
       )
       .then(async (res) => {
+        console.log(res.data);
         this.setState({
           resultado: true,
         });
