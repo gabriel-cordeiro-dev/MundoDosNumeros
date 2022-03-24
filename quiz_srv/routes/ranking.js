@@ -4,7 +4,6 @@ const router = require("express").Router();
 
 router.get("/", (req, res) => {
   User.findAll()
-
     .then((ranking) => {
       if (ranking) {
         console.log("ranking", ranking);

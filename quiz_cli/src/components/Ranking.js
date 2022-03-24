@@ -62,7 +62,7 @@ export function Ranking() {
   };
 
   useEffect(() => {
-    axios.get("http://3.235.249.44:5555/ranking").then(async (res) => {
+    axios.get("http://localhost:5555/ranking").then(async (res) => {
       let pos = 0;
 
       const desordenada = await Promise.all(
